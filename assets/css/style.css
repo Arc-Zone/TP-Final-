@@ -103,3 +103,12 @@ footer p {
     margin: 1em;
     line-height: 2em;
 }
+.msg-error , .msg-good {
+    font-size: .5em;
+}
+.msg-error{
+    color:red
+}
+.msg-good{
+    color: green;
+}
