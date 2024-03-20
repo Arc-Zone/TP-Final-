@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header h1 {
+    margin: 1em 0;
+    text-align: center;
+    color: #626262;
+}
+header .menu-burger , header nav , .contact-section article h3 {
+    text-align: center;
+    font-size: 1.2em;
+}
+header nav {
+    display: none;
+}
+header nav  li {
+    list-style: none;
+    margin: 1em;
+    border-bottom: 1px solid #eeeeee;
+}
+header nav  li a {
+    text-decoration: none;
+    margin:1em;
+    font-size: 1.3em;
+    color: #000;
+}
+.row{
+    border: 2px solid black;
+    width: 80%;
+    margin: 1em auto ;
+}
+.arian-row , .nav-link{
+    text-align: center;
+    color: black;
+}
+.arian-row a , .contact-section article h2{
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.contact-section{
+    width: 80%;
+    margin: auto;
+}
+.contact-section article p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.contact-section article h2, .contact-section article p{
+    margin-bottom: 1em;
+}
+.bold-text , .contact-section article h2{
+    color: #5d5d5d;
+    font-weight: bolder;
+}
+.contact-section article img {
+    width: 100%;
+}
+
+.row-2{
+    border: .5px solid #eeeeee;
+    width: 90%;
+    margin: 2em auto ;
+}
+.contact-section article h3{
+    color: #bbbbbb;
+    margin: 2em;
+}
+.nav-link span{
+    margin: 1em;
+}
+
+.nav-link span a , .social-network span a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.contain-form-news-letter , .social-network , footer p{
+    text-align: center;
+}
+.contain-form-news-letter form input[type="email"]{
+    width: 60%;
+    height: 3em;
+}
+.contain-form-news-letter form input[type="submit"]{
+    width: 20%;
+    height: 3em;
+    background-color: #666666;
+    border-color: #666666;
+    color: #fff;
+}
+.social-network span {
+    font-size: 2em;
+}
+
+
+footer p {
+    margin: 1em;
+    line-height: 2em;
+}
