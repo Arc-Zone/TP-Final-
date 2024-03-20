@@ -12,7 +12,7 @@ header h1 {
     text-align: center;
     color: #626262;
 }
-header .menu-burger , header nav , .contact-section article h3 {
+header .menu-burger , header nav , .flex-contact-section article h3 {
     text-align: center;
     font-size: 1.2em;
 }
@@ -30,6 +30,15 @@ header nav  li a {
     font-size: 1.3em;
     color: #000;
 }
+@media (min-width:980px) {
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-burger{
+        display: none;
+    }
+}
 .row{
     border: 2px solid black;
     width: 80%;
@@ -43,7 +52,7 @@ header nav  li a {
     color: #9a9a9a;
     text-decoration: none;
 }
-.contact-section{
+.contact-section , flex-contact-section{
     width: 80%;
     margin: auto;
 }
@@ -61,13 +70,25 @@ header nav  li a {
 .contact-section article img {
     width: 100%;
 }
-
+@media (min-width:980px) {
+    .contact-section article img{
+        width: 50%;
+    }
+    .flex-contact-section{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-contact-section article{
+        width: 30%;
+        border-right: 1px solid #eeeeee;
+    }
+}
 .row-2{
     border: .5px solid #eeeeee;
     width: 90%;
     margin: 2em auto ;
 }
-.contact-section article h3{
+.flex-contact-section article h3{
     color: #bbbbbb;
     margin: 2em;
 }
