@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    background-image: ;
 }
 
 header h1 {
@@ -22,9 +23,15 @@ header nav {
     header .menu-burger,
     header nav {
         display: block;
+    }
     .main_image {
         max-width: calc(33.33% - 40px);
     }
+    .title_resume {
+        width: 925px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -45,7 +52,9 @@ header nav li a {
     font-size: 1.3em;
     color: #000;
 }
-
+.about_title{
+    text-align: left;
+}
 .img_resume {
     display: flex;
     flex-direction: column;
@@ -63,12 +72,20 @@ header nav li a {
     border-top: 1px solid black;
 }
 
+.first_title{
+    text-align: center; 
+}
+
 .title_resume{
-    line-height: 100%;
     text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 100%;
+    font-weight:400;
 }
 
 .subtitle_resume, .subtitle_resume_gallery {
+    font-size: 20px;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;
@@ -94,7 +111,14 @@ header nav li a {
 }
 
 .subtitle_resume_gallery {
-    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 100%;
+    font-weight: 100;
 }
 
 .more_work {
@@ -112,19 +136,10 @@ header nav li a {
     margin: 20px;
     display: inline-block;
     vertical-align: middle;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    box-shadow: 15px 10px 10px black;
 }
 
 .more_title {
     padding-top: 60px;
-    text-align: center;
-}
-
-.title_projects {
     text-align: center;
 }
 
@@ -164,59 +179,21 @@ header nav li a {
 }
 
 .fig figcaption {
+    display: none; /* Caché par défaut */
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 100%; /* Décaler vers la droite */
     z-index: 1;
     align-items: center;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+    background-color: #fff;
+    border-left: 1px solid black; /* Ajouter une bordure à gauche */
+    padding: 10px; /* Ajouter un padding pour l'espacement */
 }
 
-.fig h3,
-.fig h5 {
-    margin: 0;
-    opacity: 0;
-    letter-spacing: 1px;
+.fig figcaption h3,
+.fig figcaption h5,
+.fig figcaption p,
+.fig figcaption button {
+    margin: 5px;
 }
 
-.fig h3 {
-    transform: translateY(-100%);
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.fig h5 {
-    font-weight: normal;
-    font-style: italic;
-    color: #888;
-    transform: translateY(100%);
-}
-
-.fig a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.fig:hover > img,
-.fig.hover > img {
-    opacity: 0.1;
-}
-
-.fig:hover h3,
-.fig.hover h3,
-.fig:hover h5,
-.fig.hover h5 {
-    transform: translateY(0);
-    opacity: 1;
-}
