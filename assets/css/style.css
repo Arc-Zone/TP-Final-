@@ -146,6 +146,8 @@ header nav  li a {
 }
 .answer{
     display: none;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 

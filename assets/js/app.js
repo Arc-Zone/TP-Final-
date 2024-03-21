@@ -1,4 +1,5 @@
 
+
 let menuBurger = document.getElementById('menuBurger')
 let navBar = document.getElementById('navBar')
 
@@ -29,19 +30,25 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const messageRegex = /.+/;
 
 const lastName = document.getElementById('lastName').value
-const name = document.getElementById('name').value
+const firstName = document.getElementById('firstName').value
 const eMail =  document.getElementById('email').value
 const msg = document.getElementById('msg').value
 
 const contactBtn = document.getElementById("contactBtn")
-const contactErrorMsg = document.getElementById("errorMsg")
+
 
 
 contactBtn.addEventListener('click' , function(e){
 e.preventDefault()
-if(nameRegex.test(lastName) || nameRegex.test(name) || nameRegex.test(lastName) || emailRegex.test(eMail) || messageRegex.test(msg)){
-    contactErrorMsg.innerHTML = ` <span class="msg-good"> <i class="fas fa-check"></i></span>`;
+if(nameRegex.test(lastName) && nameRegex.test(firstName) && nameRegex.test(lastName) && emailRegex.test(eMail) && messageRegex.test(msg)){
+    const contactErrorMsg = document.querySelectorAll(".contactErrorMsg")
+    for(let i  = 0 ; i < contactErrorMsg.length ; i++){
+        contactErrorMsg[i].innerHTML = ` <span class="msg-good"> <i class="fas fa-check"></i></span>`;
+    }
+    console.log('click')
 }else{
-    contactErrorMsg.innerHTML =`<span class="msg-error"> Entrée des valeurs valides </span>` ;
-}
+    const contactErrorMsg = document.querySelectorAll('.contactErrorMsg');
+    for (let i = 0; i < contactErrorMsg.length; i++) {
+        contactErrorMsg[i].innerHTML = `<span class="msg-error"> Veuillez entrer des valeurs valides </span>`;
+    }}
 })
