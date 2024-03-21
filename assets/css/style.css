@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin:0;
@@ -10,17 +12,31 @@ header h1 {
     text-align: center;
     color: #626262;
 }
+header{
+    width: 100%;
+    height: 156px;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    margin-bottom: 20px;
+    right: 0px;
+}
+
 header .menu-burger , header nav , .flex-contact-section article h3 {
     text-align: center;
     font-size: 1.2em;
 }
 header nav {
     display: none;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
+
 header nav  li {
     list-style: none;
     margin: 1em;
     border-bottom: 1px solid #eeeeee;
+
 }
 header nav  li a {
     text-decoration: none;
@@ -31,16 +47,22 @@ header nav  li a {
 .row{
     border: 2px solid black;
     width: 80%;
-    margin: 1em auto ;
+    margin: 3.9em auto;
 }
 @media (min-width:980px) {
-    header 
-    header nav {
-        display: block;
-    }
     header nav{
         display: flex;
         justify-content: center;
+    }
+    header{
+        background: (#F3F2D4, 0.5);
+        width: 100%;
+        height: 156px;
+        top: 0;
+        z-index: 999;
+        position: sticky;
+        margin-bottom: 20px;
+        right: 0px;
     }
     .menu-burger{
         display: none;
