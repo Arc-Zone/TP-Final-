@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-
-=======
->>>>>>> tabene-branch
 let menuBurger = document.getElementById('menuBurger')
 let navBar = document.getElementById('navBar')
 
@@ -12,7 +8,7 @@ menuBurger.addEventListener('click' , function(){
     }else{
         navBar.style.display = "block"
     }
-<<<<<<< HEAD
+
 })
 
 let btn = document.getElementById('btn')
@@ -55,6 +51,4 @@ if(nameRegex.test(lastName) && nameRegex.test(firstName) && nameRegex.test(lastN
     for (let i = 0; i < contactErrorMsg.length; i++) {
         contactErrorMsg[i].innerHTML = `<span class="msg-error"> Veuillez entrer des valeurs valides </span>`;
     }}
-=======
->>>>>>> tabene-branch
 })
