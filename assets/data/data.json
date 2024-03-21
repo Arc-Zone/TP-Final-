@@ -1,52 +1,62 @@
 [
     {
         "id": 1,
-        "question": "Quelles sont vos heures d'ouverture ?",
-        "answer": "Nous sommes ouverts du mardi au samedi de 10h à 18h."
+        "question": "Who is Kim Jung Gi?",
+        "answer": "Kim Jung Gi is a renowned South Korean artist known for his incredibly detailed and intricate pen and ink drawings, characterized by their complexity and lack of preliminary sketching."
     },
     {
         "id": 2,
-        "question": "Comment puis-je acheter une œuvre d'art sur votre site ?",
-        "answer": "Pour acheter une œuvre d'art sur notre site, il vous suffit de cliquer sur le bouton 'Acheter' situé sur la page de l'œuvre que vous souhaitez acquérir. Vous serez alors guidé à travers le processus de paiement."
+        "question": "What inspires Kim Jung Gi's artwork?",
+        "answer": "Kim Jung Gi draws inspiration from various sources, including his surroundings, everyday life, movies, and books. His vast imagination allows him to create elaborate scenes without relying on references or sketches."
     },
     {
         "id": 3,
-        "question": "Puis-je retourner une œuvre d'art si elle ne me convient pas ?",
-        "answer": "Oui, nous acceptons les retours dans les 14 jours suivant la réception de l'œuvre, à condition qu'elle soit retournée dans son état d'origine. Veuillez consulter notre politique de retour pour plus de détails."
+        "question": "How does Kim Jung Gi create his artwork?",
+        "answer": "Kim Jung Gi's artistic process involves visualizing complex scenes in his mind and then drawing them directly onto the paper without any prior sketching. He often begins with a single focal point and then expands the drawing spontaneously."
     },
     {
         "id": 4,
-        "question": "Proposez-vous des services d'encadrement pour les œuvres achetées ?",
-        "answer": "Oui, nous proposons des services d'encadrement sur mesure pour les œuvres achetées. Vous pouvez consulter nos options d'encadrement lors du processus d'achat."
+        "question": "What sets Kim Jung Gi's art apart from others?",
+        "answer": "Kim Jung Gi's art is distinguished by its astonishing level of detail, dynamic compositions, and masterful use of perspective. His ability to create intricate illustrations entirely from memory sets him apart from other artists."
     },
     {
         "id": 5,
-        "question": "Comment puis-je soumettre une œuvre d'art pour qu'elle soit exposée dans votre galerie ?",
-        "answer": "Si vous êtes un artiste intéressé par l'exposition de votre travail dans notre galerie, veuillez nous envoyer un email à l'adresse [adresse email]. Nous serons ravis d'examiner votre travail."
+        "question": "Has Kim Jung Gi received any recognition for his work?",
+        "answer": "Yes, Kim Jung Gi has received widespread acclaim and numerous awards for his contributions to the art world. He has gained a significant following both in South Korea and internationally."
     },
     {
         "id": 6,
-        "question": "Quels types d'œuvres d'art proposez-vous ?",
-        "answer": "Nous proposons une large gamme d'œuvres d'art, y compris des peintures, des sculptures, des photographies, des estampes et plus encore. Explorez notre collection pour découvrir nos différentes catégories."
+        "question": "What mediums does Kim Jung Gi use in his artwork?",
+        "answer": "Kim Jung Gi primarily works with pen and ink, but he is also skilled in using various other mediums such as markers and watercolors. He often combines these mediums to add depth and texture to his drawings."
     },
     {
         "id": 7,
-        "question": "Acceptez-vous les commandes spéciales ou les commissions d'œuvres d'art ?",
-        "answer": "Oui, nous acceptons les commandes spéciales et les commissions d'œuvres d'art. Contactez-nous pour discuter de vos besoins et de vos préférences, et nous serons heureux de vous fournir plus d'informations."
+        "question": "Does Kim Jung Gi teach art?",
+        "answer": "Yes, Kim Jung Gi conducts workshops and lectures worldwide to share his unique drawing techniques and insights into his creative process. Many aspiring artists seek out his guidance and instruction."
     },
     {
         "id": 8,
-        "question": "Puis-je louer une œuvre d'art plutôt que de l'acheter ?",
-        "answer": "Oui, nous proposons des options de location d'œuvres d'art pour les particuliers et les entreprises. Contactez-nous pour connaître les détails et les tarifs de location."
+        "question": "Are there any books or publications featuring Kim Jung Gi's artwork?",
+        "answer": "Yes, there are several books and publications showcasing Kim Jung Gi's artwork, including sketchbooks, art books, and collaborative projects with other artists. These publications offer a glimpse into his creative mind and artistic prowess."
     },
     {
         "id": 9,
-        "question": "Est-ce que vous expédiez vos œuvres d'art à l'international ?",
-        "answer": "Oui, nous expédions nos œuvres d'art à l'international. Les frais d'expédition et les délais de livraison varient en fonction de votre emplacement. Veuillez nous contacter pour obtenir plus d'informations sur l'expédition internationale."
+        "question": "What subjects does Kim Jung Gi depict in his drawings?",
+        "answer": "Kim Jung Gi's drawings encompass a wide range of subjects, including fantastical landscapes, intricate cityscapes, dynamic action scenes, and detailed portraits. His imagination knows no bounds, and he often explores diverse themes in his artwork."
     },
     {
         "id": 10,
-        "question": "Offrez-vous des services de consultation pour l'achat d'œuvres d'art ?",
-        "answer": "Oui, nous proposons des services de consultation personnalisée pour vous aider à choisir les œuvres d'art qui correspondent le mieux à vos goûts, à votre espace et à votre budget. Contactez-nous pour planifier une consultation."
+        "question": "How long does it take Kim Jung Gi to complete a drawing?",
+        "answer": "The time it takes for Kim Jung Gi to complete a drawing varies depending on its complexity and size. Some of his smaller pieces may take only a few hours, while larger and more detailed works can take days or even weeks to finish."
+    },
+    {
+        "id": 11,
+        "question": "Does Kim Jung Gi use any digital tools in his artistic process?",
+        "answer": "While Kim Jung Gi is primarily known for his traditional pen and ink drawings, he occasionally incorporates digital tools into his workflow for certain projects. However, he maintains a strong preference for traditional methods."
+    },
+    {
+        "id": 12,
+        "question": "Where can one view or purchase Kim Jung Gi's artwork?",
+        "answer": "Kim Jung Gi's artwork is exhibited in galleries and museums around the world, and his original pieces and prints are available for purchase through various online platforms and art dealers. Additionally, he often attends conventions and events where his artwork is showcased and sold."
     }
 ]
