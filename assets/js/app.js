@@ -1,4 +1,3 @@
-const { name } = require("ejs")
 
 let menuBurger = document.getElementById('menuBurger')
 let navBar = document.getElementById('navBar')

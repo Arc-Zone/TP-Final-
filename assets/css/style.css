@@ -18,7 +18,6 @@ header .menu-burger , header nav , .flex-contact-section article h3 {
 }
 header nav {
     display: none;
-  
 }
 header nav  li {
     list-style: none;
