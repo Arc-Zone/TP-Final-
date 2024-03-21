@@ -47,28 +47,35 @@
                 <label for="lastName">Nom :</label>
                 <input type="text" 
                             name="lastName" 
+                            id="contactErrorMsg"
                             placeholder="Gomez">
+                <p id="lastName-error"></p>
 
                 <label for="name">Prénom :</label>
                 <input type="text" 
+                            id="contactErrorMsg"
                             name="name" 
                             placeholder="Enzo">
+                <p id="name-error"></p>
 
                             <label for="email">E-mail :</label>
                             <input type="email" 
+                                        id="contactErrorMsg"
                                         name="name" 
                                         placeholder="test@exemple.com">
+                <p id="email-error"></p>
 
                 <label for="msg"> Votre question :</label>
                 <textarea name="msg" 
-                                id="" 
                                 cols="20" 
                                 rows="5"
+                                id="contactErrorMsg"
                                 placeholder="Quel est la couleur du cheval blanc d'henry IV ?">
                 </textarea>
-
+                <p id="msg-error"></p>
                 <input type="submit" 
-                            value="Envoyer">
+                            value="Envoyer"
+                            id="contact-btn">
             </form>
 
         </section>

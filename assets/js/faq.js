@@ -24,6 +24,9 @@ fetch('../data/data.json')
         });
     })
 
+
+    //Coming soon features
+
     // let currentIndex = 0
     // const prevAwnser = document.getElementById("previous-awnser")
     // const nextAwnser = document.getElementById('next-awnser')
