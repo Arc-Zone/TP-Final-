@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "Quelles sont vos heures d'ouverture ?",
+        "answer": "Nous sommes ouverts du mardi au samedi de 10h à 18h."
+    },
+    {
+        "id": 2,
+        "question": "Comment puis-je acheter une œuvre d'art sur votre site ?",
+        "answer": "Pour acheter une œuvre d'art sur notre site, il vous suffit de cliquer sur le bouton 'Acheter' situé sur la page de l'œuvre que vous souhaitez acquérir. Vous serez alors guidé à travers le processus de paiement."
+    },
+    {
+        "id": 3,
+        "question": "Puis-je retourner une œuvre d'art si elle ne me convient pas ?",
+        "answer": "Oui, nous acceptons les retours dans les 14 jours suivant la réception de l'œuvre, à condition qu'elle soit retournée dans son état d'origine. Veuillez consulter notre politique de retour pour plus de détails."
+    },
+    {
+        "id": 4,
+        "question": "Proposez-vous des services d'encadrement pour les œuvres achetées ?",
+        "answer": "Oui, nous proposons des services d'encadrement sur mesure pour les œuvres achetées. Vous pouvez consulter nos options d'encadrement lors du processus d'achat."
+    },
+    {
+        "id": 5,
+        "question": "Comment puis-je soumettre une œuvre d'art pour qu'elle soit exposée dans votre galerie ?",
+        "answer": "Si vous êtes un artiste intéressé par l'exposition de votre travail dans notre galerie, veuillez nous envoyer un email à l'adresse [adresse email]. Nous serons ravis d'examiner votre travail."
+    },
+    {
+        "id": 6,
+        "question": "Quels types d'œuvres d'art proposez-vous ?",
+        "answer": "Nous proposons une large gamme d'œuvres d'art, y compris des peintures, des sculptures, des photographies, des estampes et plus encore. Explorez notre collection pour découvrir nos différentes catégories."
+    },
+    {
+        "id": 7,
+        "question": "Acceptez-vous les commandes spéciales ou les commissions d'œuvres d'art ?",
+        "answer": "Oui, nous acceptons les commandes spéciales et les commissions d'œuvres d'art. Contactez-nous pour discuter de vos besoins et de vos préférences, et nous serons heureux de vous fournir plus d'informations."
+    },
+    {
+        "id": 8,
+        "question": "Puis-je louer une œuvre d'art plutôt que de l'acheter ?",
+        "answer": "Oui, nous proposons des options de location d'œuvres d'art pour les particuliers et les entreprises. Contactez-nous pour connaître les détails et les tarifs de location."
+    },
+    {
+        "id": 9,
+        "question": "Est-ce que vous expédiez vos œuvres d'art à l'international ?",
+        "answer": "Oui, nous expédions nos œuvres d'art à l'international. Les frais d'expédition et les délais de livraison varient en fonction de votre emplacement. Veuillez nous contacter pour obtenir plus d'informations sur l'expédition internationale."
+    },
+    {
+        "id": 10,
+        "question": "Offrez-vous des services de consultation pour l'achat d'œuvres d'art ?",
+        "answer": "Oui, nous proposons des services de consultation personnalisée pour vous aider à choisir les œuvres d'art qui correspondent le mieux à vos goûts, à votre espace et à votre budget. Contactez-nous pour planifier une consultation."
+    }
+]

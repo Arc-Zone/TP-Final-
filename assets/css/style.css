@@ -18,6 +18,7 @@ header .menu-burger , header nav , .flex-contact-section article h3 {
 }
 header nav {
     display: none;
+  
 }
 header nav  li {
     list-style: none;
@@ -52,7 +53,7 @@ header nav  li a {
     color: #9a9a9a;
     text-decoration: none;
 }
-.contact-section , flex-contact-section{
+.contact-section , .flex-contact-section , .faq-section {
     width: 80%;
     margin: auto;
 }
@@ -63,12 +64,14 @@ header nav  li a {
 .contact-section article h2, .contact-section article p{
     margin-bottom: 1em;
 }
-.bold-text , .contact-section article h2{
+.bold-text , .contact-section article h2 , .faq-section h2 {
     color: #5d5d5d;
     font-weight: bolder;
+    margin: 1em;
 }
 .contact-section article img {
     width: 100%;
+    margin-bottom: 1em;
 }
 @media (min-width:980px) {
     .contact-section article img{
@@ -82,7 +85,9 @@ header nav  li a {
         width: 30%;
         border-right: 1px solid #eeeeee;
     }
+
 }
+
 .row-2{
     border: .5px solid #eeeeee;
     width: 90%;
@@ -101,24 +106,67 @@ header nav  li a {
     color: #666666;
 }
 
-.contain-form-news-letter , .social-network , footer p{
+.contain-form-news-letter , .social-network , footer p {
     text-align: center;
 }
-.contain-form-news-letter form input[type="email"]{
+.contain-form-news-letter form input[type="email"] , .faq-section form input[type="text"] , .faq-section form input[type="email"]{
     width: 60%;
     height: 3em;
 }
-.contain-form-news-letter form input[type="submit"]{
+.contain-form-news-letter form input[type="submit"]  , .faq-section form input[type="submit"]{
     width: 20%;
     height: 3em;
     background-color: #666666;
     border-color: #666666;
     color: #fff;
+    border-radius: .5em;
 }
 .social-network span {
     font-size: 2em;
 }
 
+.faq-section form label , .faq-section form  input[type="submit"]{
+    display: block;
+}
+.faq-section form ,  .faq-section form  input[type="submit"] {
+    text-align: center;
+    margin: auto;
+}
+.faq-section form > * {
+    margin: .5em;
+}
+.contain-answer{
+    margin: 1em;
+    padding: 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    border-radius: .5em;
+    cursor: pointer;
+}
+.contain-answer h3 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+.answer{
+    display: none;
+}
+
+
+@media (min-width: 980px) {
+    .faq-flex-conatiner{
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .contain-answer{
+        width:30%;
+        
+    }
+    .faq-section form{
+        width: 60%;
+    }
+    .faq-section form textarea {
+        width: 60%;
+    }
+}
 
 footer p {
     margin: 1em;
