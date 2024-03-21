@@ -11,6 +11,7 @@ header h1 {
     text-align: center;
     color: #626262;
 }
+
 header{
     width: 100%;
     height: 156px;
@@ -23,6 +24,7 @@ header{
     -webkit-backdrop-filter: blur(20px);
 }
 
+
 header .menu-burger , header nav , .flex-contact-section article h3 {
     text-align: center;
     font-size: 1.2em;
@@ -32,6 +34,7 @@ header nav {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
+
 
 header nav  li {
     list-style: none;
@@ -44,6 +47,7 @@ header nav  li a {
     font-size: 1.3em;
     color: #000;
 }
+
 @media (min-width:980px) {
     header nav{
         display: flex;
@@ -67,11 +71,13 @@ header nav  li a {
         display: none;
     }
 }
+
 .row{
     border: 2px solid black;
     width: 80%;
     margin: 1em auto ;
 }
+
 .arian-row , .nav-link{
     text-align: center;
     color: black;
@@ -196,8 +202,89 @@ header nav  li a {
         width: 60%;
     }
 }
+@media (min-width:980px) {
+body {
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+}
+
+h1 {
+    padding: 10px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #050505;
+    font-family: "Roboto", sans-serif;
+    z-index: 1;
+}
+
+.intro-content h2,
+.intro-content p {
+    margin: 0;
+}
+
+.presentation {
+    font-size: 4em;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideInName 1.5s forwards;
+}
+
+.description {
+    font-size: 2em;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideInSubtitle 1.5s forwards;
+}
+
+@keyframes slideInName {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInSubtitle {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
 
 footer p {
+
     margin: 1em;
     line-height: 2em;
 }
