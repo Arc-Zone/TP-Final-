@@ -19,8 +19,7 @@ header{
     position: sticky;
     margin-bottom: 20px;
     right: 0px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background-color: #fff;
 }
 
 header .menu-burger , header nav , .flex-contact-section article h3 {
@@ -29,8 +28,7 @@ header .menu-burger , header nav , .flex-contact-section article h3 {
 }
 header nav {
     display: none;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background-color: #fff;
 
 }
 
@@ -38,8 +36,7 @@ header nav  li {
     list-style: none;
     margin: 1em;
     border-bottom: 1px solid #eeeeee;    
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background-color: #fff;
 
 }
 header nav  li a {
@@ -53,8 +50,6 @@ header nav  li a {
     header nav{
         display: flex;
         justify-content: center;
-        backdrop-filter: blur(0);
-        -webkit-backdrop-filter: blur(0);
     }
     header{
         background: (#F3F2D4, 0.5);
@@ -65,8 +60,6 @@ header nav  li a {
         position: sticky;
         margin-bottom: 20px;
         right: 0px;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
     }
     .menu-burger{
         display: none;
