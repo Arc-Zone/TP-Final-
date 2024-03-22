@@ -93,7 +93,7 @@ header nav  li a {
 }
 
 .subtitle_resume, .subtitle_resume_gallery {
-    font-size: 20px;
+    font-size: 1em;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;
@@ -110,7 +110,6 @@ header nav  li a {
     display: block;
     margin: 20px;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .title_resume_gallery {
@@ -143,7 +142,6 @@ header nav  li a {
     display: block;
     margin: 20px;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .more_title {
