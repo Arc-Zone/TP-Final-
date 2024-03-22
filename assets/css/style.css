@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 *{
     padding: 0;
     margin:0;
@@ -10,13 +12,31 @@ header h1 {
     text-align: center;
     color: #626262;
 }
+
+header{
+    width: 100%;
+    height: 156px;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    margin-bottom: 20px;
+    right: 0px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+
 header .menu-burger , header nav , .flex-contact-section article h3 {
     text-align: center;
     font-size: 1.2em;
 }
 header nav {
     display: none;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
+
+
 header nav  li {
     list-style: none;
     margin: 1em;
@@ -28,10 +48,160 @@ header nav  li a {
     font-size: 1.3em;
     color: #000;
 }
+
+@media (min-width:980px) {
+    header nav{
+        display: flex;
+        justify-content: center;
+        backdrop-filter: blur(0);
+        -webkit-backdrop-filter: blur(0);
+    }
+    header{
+        background: (#F3F2D4, 0.5);
+        width: 100%;
+        height: 156px;
+        top: 0;
+        z-index: 999;
+        position: sticky;
+        margin-bottom: 20px;
+        right: 0px;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+    }
+    .menu-burger{
+        display: none;
+    }
+}
+
 .row{
     border: 2px solid black;
     width: 80%;
     margin: 1em auto ;
+}
+
+.nav-link{
+    text-align: center;
+    color: black;
+}
+.arian-row a , .contact-section article h2{
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.contact-section , .flex-contact-section , .faq-section {
+    width: 80%;
+    margin: auto;
+}
+.contact-section article p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.contact-section article h2, .contact-section article p{
+    margin-bottom: 1em;
+}
+.bold-text , .contact-section article h2 , .faq-section h2 {
+    color: #5d5d5d;
+    font-weight: bolder;
+    margin: 1em;
+}
+.contact-section article img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+@media (min-width:980px) {
+    .contact-section article img{
+        width: 50%;
+    }
+    .flex-contact-section{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-contact-section article{
+        width: 30%;
+        border-right: 1px solid #eeeeee;
+    }
+
+}
+
+.row-2{
+    border: .5px solid #eeeeee;
+    width: 90%;
+    margin: 2em auto ;
+}
+.flex-contact-section article h3{
+    color: #000;
+    margin: 2em;
+}
+.nav-link span{
+    margin: 1em;
+}
+
+.nav-link span a , .social-network span a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.contain-form-news-letter , .social-network , footer p {
+    text-align: center;
+}
+.contain-form-news-letter form input[type="email"] , .faq-section form input[type="text"] , .faq-section form input[type="email"]{
+    width: 60%;
+    height: 3em;
+}
+.contain-form-news-letter form input[type="submit"]  , .faq-section form input[type="submit"]{
+    width: 20%;
+    height: 3em;
+    background-color: #666666;
+    border-color: #666666;
+    color: #fff;
+    border-radius: .5em;
+}
+.social-network span {
+    font-size: 2em;
+}
+
+.faq-section form label , .faq-section form  input[type="submit"]{
+    display: block;
+}
+.faq-section form ,  .faq-section form  input[type="submit"] {
+    text-align: center;
+    margin: auto;
+}
+.faq-section form > * {
+    margin: .5em;
+}
+.contain-answer{
+    margin: 1em;
+    padding: 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    border-radius: .5em;
+    cursor: pointer;
+}
+.contain-answer h3 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+.answer{
+    display: none;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+
+@media (min-width: 980px) {
+    .faq-flex-conatiner{
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .contain-answer{
+        width:30%;
+        
+    }
+    .faq-section form{
+        width: 60%;
+    }
+    .faq-section form textarea {
+        width: 60%;
+    }
 }
 @media (min-width:980px) {
     header 
@@ -46,22 +216,22 @@ header nav  li a {
         display: none;
     }
 }
-body {
+/* body {
     overflow-x: hidden;
     font-family: Roboto, sans-serif;
     margin: 0;
-}
+} */
 
 h1 {
     padding: 10px;
 }
 
-main {
+.contain-index {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-}
+} 
 
 #bg-video {
     position: absolute;
@@ -121,11 +291,20 @@ main {
     100% {
         transform: translateY(0);
         opacity: 1;
+
     }
 }
 
 footer p {
-    text-align: center;
     margin: 1em;
     line-height: 2em;
+}
+.msg-error , .msg-good {
+    font-size: .5em;
+}
+.msg-error{
+    color:red
+}
+.msg-good{
+    color: green;
 }
