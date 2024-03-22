@@ -31,12 +31,15 @@ header nav {
     display: none;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+
 }
 
 header nav  li {
     list-style: none;
     margin: 1em;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;    
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
 }
 header nav  li a {
