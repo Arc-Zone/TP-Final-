@@ -70,7 +70,7 @@ header nav  li a {
 }
 
 .img_resume img {
-    max-width: 60%;
+    width: 50%;
     height: auto;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
@@ -83,16 +83,8 @@ header nav  li a {
     text-align: center; 
 }
 
-.title_resume{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 20px;
-    line-height: 100%;
-    font-weight:400;
-}
-
-.subtitle_resume, .subtitle_resume_gallery {
-    font-size: 1em;
+.title_resume, .subtitle_resume p, .subtitle_resume_gallery {
+    font-size: 1.1em;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;
@@ -104,7 +96,7 @@ header nav  li a {
     text-align: center;
 }
 .img_main_gallery{
-    max-width: calc(80% - 40px);
+    max-width: calc(80%);
     height: auto;
     display: block;
     margin: 20px;
