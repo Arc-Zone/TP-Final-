@@ -132,7 +132,7 @@ header nav  li a {
 
 .nav-link span a , .social-network span a {
     text-decoration: none;
-    color: #666666;
+    color: #000;
 }
 
 .contain-form-news-letter , .social-network , footer p {
