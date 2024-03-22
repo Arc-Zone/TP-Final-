@@ -19,6 +19,8 @@ header{
     position: sticky;
     margin-bottom: 20px;
     right: 0px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 header .menu-burger , header nav , .flex-contact-section article h3 {
