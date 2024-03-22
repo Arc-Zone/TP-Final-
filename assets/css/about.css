@@ -14,6 +14,16 @@ header .menu-burger , header nav , .flex-contact-section article h3 {
     text-align: center;
     font-size: 1.2em;
 }
+header{
+    background: (#F3F2D4, 0.5);
+    width: 100%;
+    height: 156px;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    margin-bottom: 20px;
+    right: 0px;
+}
 header nav {
     display: none;
 }
@@ -35,6 +45,9 @@ header nav  li a {
 }
 
 @media (min-width: 980px) {
+    .row{
+        margin: .5em;
+    }
     header 
     header nav {
         display: block;
@@ -254,4 +267,5 @@ header nav  li a {
     right: 0;
     z-index: 1;
 }
+
 
